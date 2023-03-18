@@ -1,0 +1,17 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createastracompat:crushed_calorite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "ad_astra:calorite_nugget"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:blaze_powder"
+    }
+  ]
+}

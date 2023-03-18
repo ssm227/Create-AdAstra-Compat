@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "createastracompat:item/crushed_desh_ore"
+  }
+}

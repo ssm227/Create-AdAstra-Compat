@@ -1,0 +1,20 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "ad_astra:raw_ostrum_block"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 9,
+      "item": "createastracompat:crushed_ostrum_ore"
+    },
+    {
+      "chance": 0.75,
+      "count": 9,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

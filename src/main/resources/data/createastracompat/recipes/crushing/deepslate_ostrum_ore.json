@@ -1,0 +1,27 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "ad_astra:deepslate_ostrum_ore"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 2,
+      "item": "createastracompat:crushed_ostrum_ore"
+    },
+    {
+      "chance": 0.25,
+      "item": "createastracompat:crushed_ostrum_ore"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.12,
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}

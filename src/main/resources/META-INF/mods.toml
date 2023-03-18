@@ -64,3 +64,17 @@ Adds compatability between the Ad Astra ores and Create crushing
     versionRange="[1.19.2,1.20)"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.createastracompat]]
+    modId="create"
+    mandatory=true
+    versionRange="[0.5,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.createastracompat]]
+    modId="ad_astra"
+    mandatory=true
+    versionRange="[1.12,)"
+    ordering="NONE"
+    side="BOTH"

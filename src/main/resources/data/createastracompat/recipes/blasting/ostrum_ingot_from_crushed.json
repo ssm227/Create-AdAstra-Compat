@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "createastracompat:crushed_ostrum_ore"
+  },
+  "result": "ad_astra:ostrum_ingot"
+}

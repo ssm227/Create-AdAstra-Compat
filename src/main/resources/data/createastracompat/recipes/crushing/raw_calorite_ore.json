@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "ad_astra:raw_calorite"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "createastracompat:crushed_calorite_ore"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

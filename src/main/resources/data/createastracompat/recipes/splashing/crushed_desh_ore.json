@@ -1,0 +1,17 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createastracompat:crushed_desh_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "ad_astra:desh_nugget"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:glowstone_dust"
+    }
+  ]
+}
