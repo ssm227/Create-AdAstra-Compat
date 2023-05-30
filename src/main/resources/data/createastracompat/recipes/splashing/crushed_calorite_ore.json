@@ -7,7 +7,8 @@
   ],
   "results": [
     {
-      "item": "ad_astra:calorite_nugget"
+      "item": "ad_astra:calorite_nugget",
+      "count": 9
     },
     {
       "chance": 0.25,
