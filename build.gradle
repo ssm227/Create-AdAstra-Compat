@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.0.1-1.19.2'
+version = '1.0.3-1.19.2'
 group = 'net.ssm227.createastracompat' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'createastracompat'
 
@@ -146,6 +146,13 @@ repositories {
         name = 'tterrag maven'
         url = 'https://maven.tterrag.com/'
     }
+
+    // Ad Astra Maven
+    maven {
+        // Location of the maven that hosts Terrarium and Team Resourceful's files.
+        name = "Resourceful Bees Maven"
+        url = "https://maven.resourcefulbees.com/repository/maven-public/"
+    }
 }
 
 dependencies {
@@ -166,14 +173,16 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
+    //implementation fg.deobf("com.simibubi.create:create-${create_minecraft_version}:${create_version}:slim") { transitive = false }
+    //implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
+    //implementation fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
+
     compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}"))
     compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}"))
     // at runtime, use the full JEI jar for Forge
     runtimeOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}"))
 
-    //implementation fg.deobf("com.simibubi.create:create-${mc_version}:${create_version}:slim") { transitive = false }
-    //implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${mc_version}:${flywheel_version}")
-    //implementation fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
+    //modImplementation "earth.terrarium.adastra:ad_astra-forge-$rootProject.minecraft_version:$rootProject.ad_astra_version"
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
