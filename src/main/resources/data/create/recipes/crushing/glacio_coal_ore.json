@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "ad_astra:glacio_coal_ore"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "chance": 0.75,
+      "item": "minecraft:coal"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.12,
+      "item": "ad_astra:glacio_cobblestone"
+    }
+  ]
+}
